@@ -2,6 +2,8 @@
 
 REST API for e-commerce applications built with FastAPI. Supports product management, order processing, and user authentication with JWT.
 
+**Live demo:** https://ecommerce-api-mh4n.onrender.com/docs
+
 ## Features
 
 - JWT authentication with access and refresh tokens
@@ -33,7 +35,7 @@ REST API for e-commerce applications built with FastAPI. Supports product manage
 ### Running with Docker
 
 ```bash
-git clone https://github.com/IsaacTeles-cmd/Ecommerce-API-FastAPI-JWT-Docker.git
+git clone https://github.com/your-username/ecommerce-api.git
 cd ecommerce-api
 cp .env.example .env
 docker compose up --build
