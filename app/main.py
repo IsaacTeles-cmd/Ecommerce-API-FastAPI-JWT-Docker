@@ -15,9 +15,9 @@ async def lifespan(app: FastAPI):
     Código antes do yield roda na inicialização.
     Código depois do yield roda no encerramento.
     """
-    print("🚀 Aplicação iniciando...")
+    print(" Aplicação iniciando...")
     yield
-    print("🛑 Aplicação encerrando...")
+    print(" Aplicação encerrando...")
 
 
 app = FastAPI(
